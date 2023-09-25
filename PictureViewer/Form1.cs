@@ -28,6 +28,7 @@ namespace PictureViewer
             if (colorDialog1.ShowDialog() == DialogResult.OK)
             {
                 pictureBox1.BackColor = colorDialog1.Color;
+                //Alterei aqui
             }
         }
 
